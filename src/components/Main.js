@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const Main = (props) => {
-    return <Container>Leftside</Container>
+    return <Container>Main</Container>
 };
 
 const Container=styled.div`

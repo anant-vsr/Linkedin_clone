@@ -282,10 +282,20 @@ display: flex;
 justify-content: flex-start;
 margin:0;
 min-height: 40px;
+padding: 4px 8px;
 button{
     img{
         width: 24px;
-        
+        display: inline-flex ;
+        align-items: center;
+        /* padding: 8px; */
+        color: #0a66c2;
+        @media(min-width: 768px){
+            span{
+                margin: 8px;
+            }
+        }
+
     }
 }
 `;
